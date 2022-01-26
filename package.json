@@ -1,0 +1,21 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martha Vargas",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^7.16.13",
+    "@wdio/selenium-standalone-service": "^7.16.13",
+    "codeceptjs": "^3.2.3",
+    "webdriverio": "^7.16.13"
+  },
+  "dependencies": {
+    "codeceptjs-assert": "0.0.5",
+    "dotenv": "^14.3.2"
+  }
+}
